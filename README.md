@@ -15,6 +15,6 @@ $ kubectl expose deployment spring-kubernetes-teste --type=NodePort --port=9090
 
 ### API - endpoint
 
-- access: http://<host Kubernetes>:<port Kubernetes>/api/v1/ola
+- access: http://[host Kubernetes>]:[port Kubernetes]/api/v1/ola
 - My Kubernetes install, i accessed as follows -> http://192.168.49.2:31959/api/v1/ola
 - Result: Olá Mundo!
