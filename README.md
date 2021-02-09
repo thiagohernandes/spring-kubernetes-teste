@@ -17,5 +17,5 @@ $ minikube service spring-kubernetes-teste
 ### API - endpoint
 
 - access: http://[host Kubernetes>]:[port Kubernetes]/api/v1/ola
-- access as follows -> http://192.168.49.2:31959/api/v1/ola
+- access as follows -> http://[kubernetes-ip-local]:[kubernetes-port-local]/api/v1/ola
 - Result: Olá Mundo!
