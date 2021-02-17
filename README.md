@@ -4,6 +4,11 @@
 
 - install: https://minikube.sigs.k8s.io/docs/start/
 
+```
+minikube start
+minikube dashboard
+```
+
 ### Docker image
 https://hub.docker.com/repository/docker/kalatunga/spring-kubernetes-teste
 
