@@ -7,6 +7,18 @@
 ### Docker image
 https://hub.docker.com/repository/docker/kalatunga/spring-kubernetes-teste
 
+### Spring Build
+```
+git clone https://github.com/thiagohernandes/spring-kubernetes-teste.git
+cd spring-kubernetest-teste
+mvn clean package
+```
+
+### Docker
+```
+docker build -t kalatunga/spring-kubernetes-teste:v1 .
+```
+
 ### Kubernetes
 ``` 
 $ kubectl create deployment spring-kubernetes-teste --image=kalatunga/spring-kubernetes-teste:v1
